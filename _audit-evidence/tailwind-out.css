@@ -1,0 +1,458 @@
+/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */
+@layer properties;
+@layer theme, base, components, utilities;
+@layer theme {
+  :root, :host {
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
+      "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol", "Noto Color Emoji";
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+      "Courier New", monospace;
+    --default-font-family: var(--font-sans);
+    --default-mono-font-family: var(--font-mono);
+  }
+}
+@layer base {
+  *, ::after, ::before, ::backdrop, ::file-selector-button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0 solid;
+  }
+  html, :host {
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+    tab-size: 4;
+    font-family: var(--default-font-family, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+    font-feature-settings: var(--default-font-feature-settings, normal);
+    font-variation-settings: var(--default-font-variation-settings, normal);
+    -webkit-tap-highlight-color: transparent;
+  }
+  hr {
+    height: 0;
+    color: inherit;
+    border-top-width: 1px;
+  }
+  abbr:where([title]) {
+    -webkit-text-decoration: underline dotted;
+    text-decoration: underline dotted;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+  a {
+    color: inherit;
+    -webkit-text-decoration: inherit;
+    text-decoration: inherit;
+  }
+  b, strong {
+    font-weight: bolder;
+  }
+  code, kbd, samp, pre {
+    font-family: var(--default-mono-font-family, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+    font-feature-settings: var(--default-mono-font-feature-settings, normal);
+    font-variation-settings: var(--default-mono-font-variation-settings, normal);
+    font-size: 1em;
+  }
+  small {
+    font-size: 80%;
+  }
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  table {
+    text-indent: 0;
+    border-color: inherit;
+    border-collapse: collapse;
+  }
+  :-moz-focusring:where(:not(iframe)) {
+    outline: auto;
+  }
+  progress {
+    vertical-align: baseline;
+  }
+  summary {
+    display: list-item;
+  }
+  ol, ul, menu {
+    list-style: none;
+  }
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: block;
+    vertical-align: middle;
+  }
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  button, input, select, optgroup, textarea, ::file-selector-button {
+    font: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    border-radius: 0;
+    background-color: transparent;
+    opacity: 1;
+  }
+  :where(select:is([multiple], [size])) optgroup {
+    font-weight: bolder;
+  }
+  :where(select:is([multiple], [size])) optgroup option {
+    padding-inline-start: 20px;
+  }
+  ::file-selector-button {
+    margin-inline-end: 4px;
+  }
+  ::placeholder {
+    opacity: 1;
+  }
+  @supports (not (-webkit-appearance: -apple-pay-button))  or (contain-intrinsic-size: 1px) {
+    ::placeholder {
+      color: currentcolor;
+      @supports (color: color-mix(in lab, red, red)) {
+        color: color-mix(in oklab, currentcolor 50%, transparent);
+      }
+    }
+  }
+  textarea {
+    resize: vertical;
+  }
+  ::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  ::-webkit-date-and-time-value {
+    min-height: 1lh;
+    text-align: inherit;
+  }
+  ::-webkit-datetime-edit {
+    display: inline-flex;
+  }
+  ::-webkit-datetime-edit-fields-wrapper {
+    padding: 0;
+  }
+  ::-webkit-datetime-edit, ::-webkit-datetime-edit-year-field, ::-webkit-datetime-edit-month-field, ::-webkit-datetime-edit-day-field, ::-webkit-datetime-edit-hour-field, ::-webkit-datetime-edit-minute-field, ::-webkit-datetime-edit-second-field, ::-webkit-datetime-edit-millisecond-field, ::-webkit-datetime-edit-meridiem-field {
+    padding-block: 0;
+  }
+  ::-webkit-calendar-picker-indicator {
+    line-height: 1;
+  }
+  :-moz-ui-invalid {
+    box-shadow: none;
+  }
+  button, input:where([type="button"], [type="reset"], [type="submit"]), ::file-selector-button {
+    appearance: button;
+  }
+  ::-webkit-inner-spin-button, ::-webkit-outer-spin-button {
+    height: auto;
+  }
+  [hidden]:where(:not([hidden="until-found"])) {
+    display: none !important;
+  }
+}
+@layer utilities {
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
+  .border-border-default-default {
+    border-color: hsla(var(--border-default-default));
+  }
+  .border-border-primary-default {
+    border-color: hsla(var(--border-primary-default));
+  }
+  .bg-background-danger-default {
+    background-color: hsla(var(--background-danger-default));
+  }
+  .bg-background-default-default {
+    background-color: hsla(var(--background-default-default));
+  }
+  .bg-background-info-default {
+    background-color: hsla(var(--background-info-default));
+  }
+  .bg-background-primary-default {
+    background-color: hsla(var(--background-primary-default));
+  }
+  .bg-background-primary-disabled {
+    background-color: hsla(var(--background-primary-disabled));
+  }
+  .bg-background-primary-light-hover {
+    background-color: hsla(var(--background-primary-light-hover));
+  }
+  .bg-background-secondary-default {
+    background-color: hsla(var(--background-secondary-default));
+  }
+  .bg-background-success-default {
+    background-color: hsla(var(--background-success-default));
+  }
+  .bg-background-warning-light {
+    background-color: hsla(var(--background-warning-light));
+  }
+  .text-icon-default-disabled {
+    color: hsla(var(--icon-default-disabled));
+  }
+  .text-icon-primary-default {
+    color: hsla(var(--icon-primary-default));
+  }
+  .text-text-default-default {
+    color: hsla(var(--text-default-default));
+  }
+  .text-text-primary-default {
+    color: hsla(var(--text-primary-default));
+  }
+  .text-text-primary-on-light {
+    color: hsla(var(--text-primary-on-light));
+  }
+}
+@layer base {
+  :root {
+    --background-default-default: 240, 0.5%, 62.2%;
+    --background-default-hover: 0, 0%, 60.4%;
+    --background-default-active: 0, 0%, 60.4%;
+    --background-default-light: 0, 0%, 60.4%;
+    --background-default-light-hover: 240, 0.5%, 57.8%;
+    --background-default-light-active: 240, 0.5%, 57.8%;
+    --background-default-disabled: 240, 0.5%, 57.8%;
+    --text-default-default: 210, 10.8%, 14.5%;
+    --text-default-on-light: 210, 5.7%, 20.8%;
+    --text-default-disabled: 210, 0.8%, 47.5%;
+    --icon-default-default: 210, 10.8%, 14.5%;
+    --icon-default-on-light: 210, 5.7%, 20.8%;
+    --icon-default-disabled: 210, 0.8%, 47.5%;
+    --border-default-default: 210, 0.8%, 53.7%;
+    --border-default-on-light: 210, 4.5%, 25.9%;
+    --border-default-disabled: 240, 0.5%, 57.8%;
+    --background-primary-default: 96.4, 14.9%, 43.3%;
+    --background-primary-hover: 95.6, 15.7%, 40%;
+    --background-primary-active: 95.6, 15.7%, 40%;
+    --background-primary-light: 80, 14.3%, 95.9%;
+    --background-primary-light-hover: 100, 13%, 91%;
+    --background-primary-light-active: 100, 13%, 91%;
+    --background-primary-disabled: 240, 0.5%, 57.8%;
+    --text-primary-default: 80, 14.3%, 95.9%;
+    --text-primary-on-light: 96, 15.3%, 32%;
+    --text-primary-disabled: 210, 0.8%, 47.5%;
+    --icon-primary-default: 80, 14.3%, 95.9%;
+    --icon-primary-on-light: 96, 15.3%, 32%;
+    --icon-primary-disabled: 210, 0.8%, 47.5%;
+    --border-primary-default: 96.4, 14.9%, 43.3%;
+    --border-primary-on-light: 96.4, 13.1%, 58%;
+    --border-primary-disabled: 240, 0.5%, 57.8%;
+    --background-secondary-default: 38.4, 21.4%, 54.1%;
+    --background-secondary-hover: 37.8, 22.5%, 40%;
+    --background-secondary-active: 37.8, 22.5%, 40%;
+    --background-secondary-light: 30, 20%, 96.1%;
+    --background-secondary-light-hover: 37.5, 17.4%, 91%;
+    --background-secondary-light-active: 37.5, 17.4%, 91%;
+    --background-secondary-disabled: 240, 0.5%, 57.8%;
+    --text-secondary-default: 38.2, 21.6%, 10%;
+    --text-secondary-on-light: 38.9, 22.7%, 32%;
+    --text-secondary-disabled: 210, 0.8%, 47.5%;
+    --icon-secondary-default: 38.2, 21.6%, 10%;
+    --icon-secondary-on-light: 38.9, 22.7%, 32%;
+    --icon-secondary-disabled: 210, 0.8%, 47.5%;
+    --border-secondary-default: 38.4, 21.4%, 54.1%;
+    --border-secondary-on-light: 39.5, 19.1%, 57.8%;
+    --border-secondary-disabled: 240, 0.5%, 57.8%;
+    --background-success-default: 139.4, 27.9%, 23.9%;
+    --background-success-hover: 138.3, 28.4%, 15.9%;
+    --background-success-active: 138.3, 28.4%, 15.9%;
+    --background-success-light: 144, 23.8%, 95.9%;
+    --background-success-light-hover: 136.4, 24.4%, 91.2%;
+    --background-success-light-active: 136.4, 24.4%, 91.2%;
+    --background-success-disabled: 240, 0.5%, 57.8%;
+    --text-success-default: 144, 23.8%, 95.9%;
+    --text-success-on-light: 144.7, 71.8%, 13.9%;
+    --text-success-disabled: 210, 0.8%, 47.5%;
+    --icon-success-default: 144, 23.8%, 95.9%;
+    --icon-success-on-light: 144.7, 71.8%, 13.9%;
+    --icon-success-disabled: 210, 0.8%, 47.5%;
+    --border-success-default: 139.4, 27.9%, 23.9%;
+    --border-success-on-light: 138.5, 26.7%, 52.4%;
+    --border-success-disabled: 240, 0.5%, 57.8%;
+    --background-warning-default: 39.2, 59%, 23.9%;
+    --background-warning-hover: 38.8, 58.5%, 16.1%;
+    --background-warning-active: 38.8, 58.5%, 16.1%;
+    --background-warning-light: 36, 50%, 96.1%;
+    --background-warning-light-hover: 40, 52.2%, 91%;
+    --background-warning-light-active: 40, 52.2%, 91%;
+    --background-warning-disabled: 240, 0.5%, 57.8%;
+    --text-warning-default: 36, 50%, 96.1%;
+    --text-warning-on-light: 39.2, 59%, 23.9%;
+    --text-warning-disabled: 210, 0.8%, 47.5%;
+    --icon-warning-default: 36, 50%, 96.1%;
+    --icon-warning-on-light: 39.2, 59%, 23.9%;
+    --icon-warning-disabled: 210, 0.8%, 47.5%;
+    --border-warning-default: 39.2, 59%, 23.9%;
+    --border-warning-on-light: 39.2, 56%, 54.5%;
+    --border-warning-disabled: 240, 0.5%, 57.8%;
+    --background-danger-default: 5.6, 53.1%, 15.9%;
+    --background-danger-hover: 4.4, 52.9%, 10%;
+    --background-danger-active: 4.4, 52.9%, 10%;
+    --background-danger-light: 6.7, 42.9%, 95.9%;
+    --background-danger-light-hover: 3, 43.5%, 91%;
+    --background-danger-light-active: 3, 43.5%, 91%;
+    --background-danger-disabled: 240, 0.5%, 57.8%;
+    --text-danger-default: 6.7, 42.9%, 95.9%;
+    --text-danger-on-light: 5.6, 53.1%, 15.9%;
+    --text-danger-disabled: 210, 0.8%, 47.5%;
+    --icon-danger-default: 6.7, 42.9%, 95.9%;
+    --icon-danger-on-light: 5.6, 53.1%, 15.9%;
+    --icon-danger-disabled: 210, 0.8%, 47.5%;
+    --border-danger-default: 5.6, 53.1%, 15.9%;
+    --border-danger-on-light: 4.9, 50.2%, 56.7%;
+    --border-danger-disabled: 240, 0.5%, 57.8%;
+    --background-info-default: 207.9, 53.1%, 15.9%;
+    --background-info-hover: 208.9, 52.9%, 10%;
+    --background-info-active: 208.9, 52.9%, 10%;
+    --background-info-light: 206.7, 42.9%, 95.9%;
+    --background-info-light-hover: 210, 43.5%, 91%;
+    --background-info-light-active: 210, 43.5%, 91%;
+    --background-info-disabled: 240, 0.5%, 57.8%;
+    --text-info-default: 206.7, 42.9%, 95.9%;
+    --text-info-on-light: 207.9, 53.1%, 15.9%;
+    --text-info-disabled: 210, 0.8%, 47.5%;
+    --icon-info-default: 206.7, 42.9%, 95.9%;
+    --icon-info-on-light: 207.9, 53.1%, 15.9%;
+    --icon-info-disabled: 210, 0.8%, 47.5%;
+    --border-info-default: 207.9, 53.1%, 15.9%;
+    --border-info-on-light: 208.9, 50%, 56.9%;
+    --border-info-disabled: 240, 0.5%, 57.8%;
+  }
+  .dark {
+    --background-default-default: 210, 10.8%, 14.5%;
+    --background-default-hover: 214.3, 8.2%, 16.7%;
+    --background-default-active: 214.3, 8.2%, 16.7%;
+    --background-default-light: 210, 5.7%, 20.8%;
+    --background-default-light-hover: 214.3, 8.2%, 16.7%;
+    --background-default-light-active: 214.3, 8.2%, 16.7%;
+    --background-default-disabled: 214.3, 8.2%, 16.7%;
+    --text-default-default: 240, 0.5%, 57.8%;
+    --text-default-on-light: 240, 0.5%, 57.8%;
+    --text-default-disabled: 204, 3.1%, 32%;
+    --icon-default-default: 240, 0.5%, 57.8%;
+    --icon-default-on-light: 240, 0.5%, 57.8%;
+    --icon-default-disabled: 204, 3.1%, 32%;
+    --border-default-default: 210, 4.5%, 25.9%;
+    --border-default-on-light: 210, 0.8%, 47.5%;
+    --border-default-disabled: 210, 5.7%, 20.8%;
+    --background-primary-default: 96.4, 13.1%, 58%;
+    --background-primary-hover: 97.1, 13.7%, 70%;
+    --background-primary-active: 97.1, 13.7%, 70%;
+    --background-primary-light: 96.9, 16%, 15.9%;
+    --background-primary-light-hover: 97.9, 15.4%, 24.1%;
+    --background-primary-light-active: 97.9, 15.4%, 24.1%;
+    --background-primary-disabled: 214.3, 8.2%, 16.7%;
+    --text-primary-default: 94.3, 13.7%, 10%;
+    --text-primary-on-light: 95, 13%, 82%;
+    --text-primary-disabled: 204, 3.1%, 32%;
+    --icon-primary-default: 94.3, 13.7%, 10%;
+    --icon-primary-on-light: 95, 13%, 82%;
+    --icon-primary-disabled: 204, 3.1%, 32%;
+    --border-primary-default: 96.4, 13.1%, 58%;
+    --border-primary-on-light: 95.6, 15.7%, 40%;
+    --border-primary-disabled: 210, 5.7%, 20.8%;
+    --background-secondary-default: 39.5, 19.1%, 57.8%;
+    --background-secondary-hover: 39.3, 19%, 70%;
+    --background-secondary-active: 39.3, 19%, 70%;
+    --background-secondary-light: 36.7, 22%, 16.1%;
+    --background-secondary-light-hover: 38.6, 23%, 23.9%;
+    --background-secondary-light-active: 38.6, 23%, 23.9%;
+    --background-secondary-disabled: 214.3, 8.2%, 16.7%;
+    --text-secondary-default: 38.2, 21.6%, 10%;
+    --text-secondary-on-light: 40, 19.6%, 82%;
+    --text-secondary-disabled: 204, 3.1%, 32%;
+    --icon-secondary-default: 38.2, 21.6%, 10%;
+    --icon-secondary-on-light: 40, 19.6%, 82%;
+    --icon-secondary-disabled: 204, 3.1%, 32%;
+    --border-secondary-default: 39.5, 19.1%, 57.8%;
+    --border-secondary-on-light: 37.8, 22.5%, 40%;
+    --border-secondary-disabled: 210, 5.7%, 20.8%;
+    --background-success-default: 137.8, 24.2%, 70%;
+    --background-success-hover: 139.1, 23.9%, 82%;
+    --background-success-active: 139.1, 23.9%, 82%;
+    --background-success-light: 138.3, 28.4%, 15.9%;
+    --background-success-light-hover: 139.4, 27.9%, 23.9%;
+    --background-success-light-active: 139.4, 27.9%, 23.9%;
+    --background-success-disabled: 214.3, 8.2%, 16.7%;
+    --text-success-default: 140, 29.4%, 10%;
+    --text-success-on-light: 137.8, 24.2%, 70%;
+    --text-success-disabled: 204, 3.1%, 32%;
+    --icon-success-default: 140, 29.4%, 10%;
+    --icon-success-on-light: 137.8, 24.2%, 70%;
+    --icon-success-disabled: 204, 3.1%, 32%;
+    --border-success-default: 137.8, 24.2%, 70%;
+    --border-success-on-light: 138.5, 26.7%, 52.4%;
+    --border-success-disabled: 210, 5.7%, 20.8%;
+    --background-warning-default: 39, 50.3%, 70%;
+    --background-warning-hover: 39.1, 50%, 82%;
+    --background-warning-active: 39.1, 50%, 82%;
+    --background-warning-light: 38.8, 58.5%, 16.1%;
+    --background-warning-light-hover: 39.2, 59%, 23.9%;
+    --background-warning-light-active: 39.2, 59%, 23.9%;
+    --background-warning-disabled: 214.3, 8.2%, 16.7%;
+    --text-warning-default: 38.7, 60.8%, 10%;
+    --text-warning-on-light: 39, 50.3%, 70%;
+    --text-warning-disabled: 204, 3.1%, 32%;
+    --icon-warning-default: 38.7, 60.8%, 10%;
+    --icon-warning-on-light: 39, 50.3%, 70%;
+    --icon-warning-disabled: 204, 3.1%, 32%;
+    --border-warning-default: 39, 50.3%, 70%;
+    --border-warning-on-light: 39.2, 56%, 54.5%;
+    --border-warning-disabled: 210, 5.7%, 20.8%;
+    --background-danger-default: 5.2, 45.1%, 70%;
+    --background-danger-hover: 5.7, 45.7%, 82%;
+    --background-danger-active: 5.7, 45.7%, 82%;
+    --background-danger-light: 5.6, 53.1%, 15.9%;
+    --background-danger-light-hover: 4.7, 52.5%, 23.9%;
+    --background-danger-light-active: 4.7, 52.5%, 23.9%;
+    --background-danger-disabled: 214.3, 8.2%, 16.7%;
+    --text-danger-default: 4.4, 52.9%, 10%;
+    --text-danger-on-light: 5.2, 45.1%, 70%;
+    --text-danger-disabled: 204, 3.1%, 32%;
+    --icon-danger-default: 4.4, 52.9%, 10%;
+    --icon-danger-on-light: 5.2, 45.1%, 70%;
+    --icon-danger-disabled: 204, 3.1%, 32%;
+    --border-danger-default: 5.2, 45.1%, 70%;
+    --border-danger-on-light: 4.9, 50.2%, 56.7%;
+    --border-danger-disabled: 210, 5.7%, 20.8%;
+    --background-info-default: 208.7, 45.1%, 70%;
+    --background-info-hover: 208.6, 45.7%, 82%;
+    --background-info-active: 208.6, 45.7%, 82%;
+    --background-info-light: 207.9, 53.1%, 15.9%;
+    --background-info-light-hover: 209.1, 52.5%, 23.9%;
+    --background-info-light-active: 209.1, 52.5%, 23.9%;
+    --background-info-disabled: 214.3, 8.2%, 16.7%;
+    --text-info-default: 208.9, 52.9%, 10%;
+    --text-info-on-light: 208.7, 45.1%, 70%;
+    --text-info-disabled: 204, 3.1%, 32%;
+    --icon-info-default: 208.9, 52.9%, 10%;
+    --icon-info-on-light: 208.7, 45.1%, 70%;
+    --icon-info-disabled: 204, 3.1%, 32%;
+    --border-info-default: 208.7, 45.1%, 70%;
+    --border-info-on-light: 208.9, 50%, 56.9%;
+    --border-info-disabled: 210, 5.7%, 20.8%;
+  }
+}
+@property --tw-border-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
+    *, ::before, ::after, ::backdrop {
+      --tw-border-style: solid;
+    }
+  }
+}

@@ -1,0 +1,60 @@
+PASS  D375 frame is a real 375px container; no horizontal overflow  [375,375,375]
+PASS  D375 no text outside the frame, none clipped by its card, no truncation  [[],[],[]]
+PASS  D375 KPI / project cards / page blocks never overlap  {"kpi":0,"proj":0,"cards":0,"tiles":0,"dashBlocks":0,"landSections":0}
+PASS  D375 readable type (min 10px; only chart axis ticks below 11px)  ["1.5 h","2 h","2.5 h","1 h","3 h","2.5 h","0 h"]
+PASS  D375 desktop sidebar gone, mobile header shown; right panel folded into the scroll (full width, below main)  {"navDisplay":"none","bar":"flex","sideFull":true,"sideBelow":true,"kpiCols":2,"kpiRows":2,"bars":[35,35,35,35,35,35,35],"barsInCard":true,"ring":true,"goalH":144,"toggle":[44,44],"chipsH":[40,40,40,40],"sessions":3,"ach":3,"profile":true}
+PASS  D375 KPIs are a 2 × 2 grid  
+PASS  D375 weekly activity fits its card (bars ≥ 30px wide); goal ring inside a compact card  [[35,35,35,35,35,35,35],144]
+PASS  D375 touch targets: menu 44×44, chips ≥ 40px; sessions (3), achievements (3) and profile visible  {"navDisplay":"none","bar":"flex","sideFull":true,"sideBelow":true,"kpiCols":2,"kpiRows":2,"bars":[35,35,35,35,35,35,35],"barsInCard":true,"ring":true,"goalH":144,"toggle":[44,44],"chipsH":[40,40,40,40],"sessions":3,"ach":3,"profile":true}
+PASS  L375 real 375px container; no horizontal overflow  [375,375]
+PASS  L375 no text outside the frame or clipped by its card  [[],[],[]]
+PASS  L375 featured cards / tiles / sections never overlap; min font 13px  {"kpi":0,"proj":0,"cards":0,"tiles":0,"dashBlocks":0,"landSections":0}
+PASS  L375 header: desktop links hidden, logo + menu fit, compact  {"links":"none","navFits":true,"navH":68,"dispLines":[359,359],"dispInside":true,"heroDecoOverText":[],"stDecoOverText":[],"featArtOverText":[],"cta":[49,true,"visible"],"footer":true,"chipsH":[40,40,40,40]}
+PASS  L375 headline fully inside the frame (line rights 359,359)  
+PASS  L375 decoration never covers words (hero, statement, feature tile)  [[],[],[]]
+PASS  L375 CTA visible & ≥ 44px; chips ≥ 40px; footer fits  [[49,true,"visible"],[40,40,40,40]]
+PASS  D390 frame is a real 390px container; no horizontal overflow  [390,390,390]
+PASS  D390 no text outside the frame, none clipped by its card, no truncation  [[],[],[]]
+PASS  D390 KPI / project cards / page blocks never overlap  {"kpi":0,"proj":0,"cards":0,"tiles":0,"dashBlocks":0,"landSections":0}
+PASS  D390 readable type (min 10px; only chart axis ticks below 11px)  ["1.5 h","2 h","2.5 h","1 h","3 h","2.5 h","0 h"]
+PASS  D390 desktop sidebar gone, mobile header shown; right panel folded into the scroll (full width, below main)  {"navDisplay":"none","bar":"flex","sideFull":true,"sideBelow":true,"kpiCols":2,"kpiRows":2,"bars":[37,37,37,37,37,37,37],"barsInCard":true,"ring":true,"goalH":144,"toggle":[44,44],"chipsH":[40,40,40,40],"sessions":3,"ach":3,"profile":true}
+PASS  D390 KPIs are a 2 × 2 grid  
+PASS  D390 weekly activity fits its card (bars ≥ 30px wide); goal ring inside a compact card  [[37,37,37,37,37,37,37],144]
+PASS  D390 touch targets: menu 44×44, chips ≥ 40px; sessions (3), achievements (3) and profile visible  {"navDisplay":"none","bar":"flex","sideFull":true,"sideBelow":true,"kpiCols":2,"kpiRows":2,"bars":[37,37,37,37,37,37,37],"barsInCard":true,"ring":true,"goalH":144,"toggle":[44,44],"chipsH":[40,40,40,40],"sessions":3,"ach":3,"profile":true}
+PASS  D390 weekly activity: tapping Fri selects it and updates the detail  true | Fri · 3 h
+PASS  D390 project filter "Writing" → 2 cards, count updates, still no overlap/clipping  [2,"2 projects"]
+PASS  D390 menu opens: aria-expanded=true, all 6 destinations, inside the frame, labelled  {"exp":"true","hidden":false,"inFrame":true,"items":["Home","Projects","Schedule","Community","Library","Settings"],"label":"Workspace menu","btnLabel":"Menu"}
+PASS  D390 Escape closes the menu and returns focus to the button  ["false",true,true]
+PASS  D390 outside click closes the menu  
+PASS  D390 keyboard: Enter opens, Tab walks the items, Enter on "Projects" selects it  Home → Projects
+PASS  D390 selecting "Projects": menu closes, header + desktop nav show it current, preview scrolls the section under the sticky header  {"hidden":true,"title":"Projects","cur":"Projects","desk":"Projects","st":897,"gap":12,"barTop":0,"focus":true}
+PASS  D390 TH: menu label translates; header keeps the chosen destination  เมนู | Projects
+PASS  L390 real 390px container; no horizontal overflow  [390,390]
+PASS  L390 no text outside the frame or clipped by its card  [[],[],[]]
+PASS  L390 featured cards / tiles / sections never overlap; min font 13px  {"kpi":0,"proj":0,"cards":0,"tiles":0,"dashBlocks":0,"landSections":0}
+PASS  L390 header: desktop links hidden, logo + menu fit, compact  {"links":"none","navFits":true,"navH":68,"dispLines":[374,374],"dispInside":true,"heroDecoOverText":[],"stDecoOverText":[],"featArtOverText":[],"cta":[49,true,"visible"],"footer":true,"chipsH":[40,40,40,40]}
+PASS  L390 headline fully inside the frame (line rights 374,374)  
+PASS  L390 decoration never covers words (hero, statement, feature tile)  [[],[],[]]
+PASS  L390 CTA visible & ≥ 44px; chips ≥ 40px; footer fits  [[49,true,"visible"],[40,40,40,40]]
+PASS  L390 filter "Make" → 2 tiles, layout still clean  [[2,true],[],[]]
+PASS  L390 menu opens with Programs/Community/Events/Stories + Join, inside the frame  {"exp":"true","inFrame":true,"items":["Programs","Community","Events","Stories"],"join":true}
+PASS  L390 "Events" closes the menu, marks it active, scrolls Explore under the sticky header  {"hidden":true,"exp":"false","desk":"Events","gap":12,"st":2249}
+PASS  L390 Escape closes the landing menu  
+PASS  D430 frame is a real 430px container; no horizontal overflow  [430,430,430]
+PASS  D430 no text outside the frame, none clipped by its card, no truncation  [[],[],[]]
+PASS  D430 KPI / project cards / page blocks never overlap  {"kpi":0,"proj":0,"cards":0,"tiles":0,"dashBlocks":0,"landSections":0}
+PASS  D430 readable type (min 10px; only chart axis ticks below 11px)  ["1.5 h","2 h","2.5 h","1 h","3 h","2.5 h","0 h"]
+PASS  D430 desktop sidebar gone, mobile header shown; right panel folded into the scroll (full width, below main)  {"navDisplay":"none","bar":"flex","sideFull":true,"sideBelow":true,"kpiCols":2,"kpiRows":2,"bars":[43,43,43,43,43,43,43],"barsInCard":true,"ring":true,"goalH":144,"toggle":[44,44],"chipsH":[40,40,40,40],"sessions":3,"ach":3,"profile":true}
+PASS  D430 KPIs are a 2 × 2 grid  
+PASS  D430 weekly activity fits its card (bars ≥ 30px wide); goal ring inside a compact card  [[43,43,43,43,43,43,43],144]
+PASS  D430 touch targets: menu 44×44, chips ≥ 40px; sessions (3), achievements (3) and profile visible  {"navDisplay":"none","bar":"flex","sideFull":true,"sideBelow":true,"kpiCols":2,"kpiRows":2,"bars":[43,43,43,43,43,43,43],"barsInCard":true,"ring":true,"goalH":144,"toggle":[44,44],"chipsH":[40,40,40,40],"sessions":3,"ach":3,"profile":true}
+PASS  L430 real 430px container; no horizontal overflow  [430,430]
+PASS  L430 no text outside the frame or clipped by its card  [[],[],[]]
+PASS  L430 featured cards / tiles / sections never overlap; min font 13px  {"kpi":0,"proj":0,"cards":0,"tiles":0,"dashBlocks":0,"landSections":0}
+PASS  L430 header: desktop links hidden, logo + menu fit, compact  {"links":"none","navFits":true,"navH":68,"dispLines":[414,414],"dispInside":true,"heroDecoOverText":[],"stDecoOverText":[],"featArtOverText":[],"cta":[49,true,"visible"],"footer":true,"chipsH":[40,40,40,40]}
+PASS  L430 headline fully inside the frame (line rights 414,414)  
+PASS  L430 decoration never covers words (hero, statement, feature tile)  [[],[],[]]
+PASS  L430 CTA visible & ≥ 44px; chips ≥ 40px; footer fits  [[49,true,"visible"],[40,40,40,40]]
+
+57/57 passed; console errors: []
+ALLDONE

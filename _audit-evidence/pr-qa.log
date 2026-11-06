@@ -1,0 +1,86 @@
+PASS  L EN 375 real 375px container, no horizontal overflow  [375,375,375]
+PASS  L EN 375 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  L EN 375 no image over any words; items/sections never overlap; min font 12px  [[],{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0}]
+PASS  L EN 375 header: wordmark (253px) + menu fit, desktop links hidden  {"links":"none","navFits":true,"wordmark":253,"disp":{"font":51,"lh":1.04,"lines":["Objects of","quiet beauty."],"inside":true},"heroW":283,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"1.68px","labelLS":"1.68px"}
+PASS  L EN 375 headline 51px, line-height 1.04, lines: ["Objects of","quiet beauty."]  ["1.68px","1.68px"]
+PASS  L EN 375 sculpture is the centrepiece: 283px wide at 0.8 (4:5), detail overlaps it; CTA 48px; footer fits  {"links":"none","navFits":true,"wordmark":253,"disp":{"font":51,"lh":1.04,"lines":["Objects of","quiet beauty."],"inside":true},"heroW":283,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"1.68px","labelLS":"1.68px"}
+PASS  D EN 375 real 375px container, no horizontal overflow  [375,375,375]
+PASS  D EN 375 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  D EN 375 metrics/panels/rows never overlap; min font 10px (chart month labels only below 11)  [{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0},["Nov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct"]]
+PASS  D EN 375 sidebar → mobile header; main 375px; metrics 2 × 2; orders as stacked rows; actions fit (44,44,44)  {"side":"none","bar":"flex","mainW":375,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  D EN 375 chart: 12 month labels readable, no collisions, inside the panel  {"side":"none","bar":"flex","mainW":375,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  L EN 390 real 390px container, no horizontal overflow  [390,390,390]
+PASS  L EN 390 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  L EN 390 no image over any words; items/sections never overlap; min font 12px  [[],{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0}]
+PASS  L EN 390 header: wordmark (268px) + menu fit, desktop links hidden  {"links":"none","navFits":true,"wordmark":268,"disp":{"font":53,"lh":1.04,"lines":["Objects of","quiet beauty."],"inside":true},"heroW":296,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"1.68px","labelLS":"1.68px"}
+PASS  L EN 390 headline 53px, line-height 1.04, lines: ["Objects of","quiet beauty."]  ["1.68px","1.68px"]
+PASS  L EN 390 sculpture is the centrepiece: 296px wide at 0.8 (4:5), detail overlaps it; CTA 48px; footer fits  {"links":"none","navFits":true,"wordmark":268,"disp":{"font":53,"lh":1.04,"lines":["Objects of","quiet beauty."],"inside":true},"heroW":296,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"1.68px","labelLS":"1.68px"}
+PASS  #pv-premium-landing menu opens: aria-expanded, items Collection,Objects,Spaces,Journal, inside frame, ≥48px rows, 44px button, labelled  {"exp":"true","hidden":false,"inFrame":true,"items":["Collection","Objects","Spaces","Journal"],"label":"Site menu","btn":"Menu","itemH":71.578125,"tH":44,"visText":"Close","foot":"Visit the studio"}
+PASS  #pv-premium-landing Escape closes, focus returns  ["false",true,true]
+PASS  #pv-premium-landing outside click closes  
+PASS  #pv-premium-landing keyboard Tab→"03Spaces" + Enter: closes, current marked (menu + desktop nav), section under the sticky header  {"hidden":true,"cur":"03Spaces","desk":"Spaces","title":null,"st":1326,"gap":12,"barTop":0,"focus":true,"atEnd":false}
+PASS  D EN 390 real 390px container, no horizontal overflow  [390,390,390]
+PASS  D EN 390 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  D EN 390 metrics/panels/rows never overlap; min font 10px (chart month labels only below 11)  [{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0},["Nov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct"]]
+PASS  D EN 390 sidebar → mobile header; main 390px; metrics 2 × 2; orders as stacked rows; actions fit (44,44,44)  {"side":"none","bar":"flex","mainW":390,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  D EN 390 chart: 12 month labels readable, no collisions, inside the panel  {"side":"none","bar":"flex","mainW":390,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  #pv-premium-dashboard menu opens: aria-expanded, items Overview,Orders,Collection,Clients,Journal, inside frame, ≥48px rows, 44px button, labelled  {"exp":"true","hidden":false,"inFrame":true,"items":["Overview","Orders","Collection","Clients","Journal"],"label":"Studio menu","btn":"Menu","itemH":56,"tH":44,"visText":"Close","foot":"AT Arisa T. Studio lead"}
+PASS  #pv-premium-dashboard Escape closes, focus returns  ["false",true,true]
+PASS  #pv-premium-dashboard outside click closes  
+PASS  #pv-premium-dashboard keyboard Tab→"Orders" + Enter: closes, current marked (menu + desktop nav + header), section under the sticky header  {"hidden":true,"cur":"Orders","desk":"Orders","title":"Orders","st":955,"gap":223,"barTop":0,"focus":true,"atEnd":true}
+PASS  D EN 390 profile available in the mobile menu  AT Arisa T. Studio lead
+PASS  L EN 430 real 430px container, no horizontal overflow  [430,430,430]
+PASS  L EN 430 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  L EN 430 no image over any words; items/sections never overlap; min font 12px  [[],{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0}]
+PASS  L EN 430 header: wordmark (308px) + menu fit, desktop links hidden  {"links":"none","navFits":true,"wordmark":308,"disp":{"font":58,"lh":1.04,"lines":["Objects of","quiet beauty."],"inside":true},"heroW":329,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"1.68px","labelLS":"1.68px"}
+PASS  L EN 430 headline 58px, line-height 1.04, lines: ["Objects of","quiet beauty."]  ["1.68px","1.68px"]
+PASS  L EN 430 sculpture is the centrepiece: 329px wide at 0.8 (4:5), detail overlaps it; CTA 48px; footer fits  {"links":"none","navFits":true,"wordmark":308,"disp":{"font":58,"lh":1.04,"lines":["Objects of","quiet beauty."],"inside":true},"heroW":329,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"1.68px","labelLS":"1.68px"}
+PASS  D EN 430 real 430px container, no horizontal overflow  [430,430,430]
+PASS  D EN 430 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  D EN 430 metrics/panels/rows never overlap; min font 10px (chart month labels only below 11)  [{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0},["Nov","Dec","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct"]]
+PASS  D EN 430 sidebar → mobile header; main 430px; metrics 2 × 2; orders as stacked rows; actions fit (44,44,44)  {"side":"none","bar":"flex","mainW":430,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  D EN 430 chart: 12 month labels readable, no collisions, inside the panel  {"side":"none","bar":"flex","mainW":430,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  L TH 375 real 375px container, no horizontal overflow  [375,375,375]
+PASS  L TH 375 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  L TH 375 no image over any words; items/sections never overlap; min font 12px  [[],{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0}]
+PASS  L TH 375 header: wordmark (273px) + menu fit, desktop links hidden  {"links":"none","navFits":true,"wordmark":273,"disp":{"font":45,"lh":1.24,"lines":["ความงาม","ที่เงียบสงบ"],"inside":true},"heroW":283,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"normal","labelLS":"normal"}
+PASS  L TH 375 headline 45px, line-height 1.24, lines: ["ความงาม","ที่เงียบสงบ"]  ["normal","normal"]
+PASS  L TH 375 sculpture is the centrepiece: 283px wide at 0.8 (4:5), detail overlaps it; CTA 48px; footer fits  {"links":"none","navFits":true,"wordmark":273,"disp":{"font":45,"lh":1.24,"lines":["ความงาม","ที่เงียบสงบ"],"inside":true},"heroW":283,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"normal","labelLS":"normal"}
+PASS  D TH 375 real 375px container, no horizontal overflow  [375,375,375]
+PASS  D TH 375 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  D TH 375 metrics/panels/rows never overlap; min font 10px (chart month labels only below 11)  [{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0},["พ.ย.","ธ.ค.","ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค."]]
+PASS  D TH 375 sidebar → mobile header; main 375px; metrics 2 × 2; orders as stacked rows; actions fit (44,44,44)  {"side":"none","bar":"flex","mainW":375,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  D TH 375 chart: 12 month labels readable, no collisions, inside the panel  {"side":"none","bar":"flex","mainW":375,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  L TH 390 real 390px container, no horizontal overflow  [390,390,390]
+PASS  L TH 390 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  L TH 390 no image over any words; items/sections never overlap; min font 12px  [[],{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0}]
+PASS  L TH 390 header: wordmark (288px) + menu fit, desktop links hidden  {"links":"none","navFits":true,"wordmark":288,"disp":{"font":47,"lh":1.24,"lines":["ความงาม","ที่เงียบสงบ"],"inside":true},"heroW":296,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"normal","labelLS":"normal"}
+PASS  L TH 390 headline 47px, line-height 1.24, lines: ["ความงาม","ที่เงียบสงบ"]  ["normal","normal"]
+PASS  L TH 390 sculpture is the centrepiece: 296px wide at 0.8 (4:5), detail overlaps it; CTA 48px; footer fits  {"links":"none","navFits":true,"wordmark":288,"disp":{"font":47,"lh":1.24,"lines":["ความงาม","ที่เงียบสงบ"],"inside":true},"heroW":296,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"normal","labelLS":"normal"}
+PASS  #pv-premium-landing menu opens: aria-expanded, items คอลเลกชัน,ชิ้นงาน,พื้นที่,บันทึก, inside frame, ≥48px rows, 44px button, labelled  {"exp":"true","hidden":false,"inFrame":true,"items":["คอลเลกชัน","ชิ้นงาน","พื้นที่","บันทึก"],"label":"เมนูเว็บไซต์","btn":"เมนู","itemH":75,"tH":44,"visText":"ปิด","foot":"แวะมาที่สตูดิโอ"}
+PASS  #pv-premium-landing Escape closes, focus returns  ["false",true,true]
+PASS  #pv-premium-landing outside click closes  
+PASS  #pv-premium-landing keyboard Tab→"03พื้นที่" + Enter: closes, current marked (menu + desktop nav), section under the sticky header  {"hidden":true,"cur":"03พื้นที่","desk":"พื้นที่","title":null,"st":1338,"gap":12,"barTop":0,"focus":true,"atEnd":false}
+PASS  D TH 390 real 390px container, no horizontal overflow  [390,390,390]
+PASS  D TH 390 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  D TH 390 metrics/panels/rows never overlap; min font 10px (chart month labels only below 11)  [{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0},["พ.ย.","ธ.ค.","ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค."]]
+PASS  D TH 390 sidebar → mobile header; main 390px; metrics 2 × 2; orders as stacked rows; actions fit (44,44,44)  {"side":"none","bar":"flex","mainW":390,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  D TH 390 chart: 12 month labels readable, no collisions, inside the panel  {"side":"none","bar":"flex","mainW":390,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  #pv-premium-dashboard menu opens: aria-expanded, items ภาพรวม,คำสั่งซื้อ,คอลเลกชัน,ลูกค้า,บันทึก, inside frame, ≥48px rows, 44px button, labelled  {"exp":"true","hidden":false,"inFrame":true,"items":["ภาพรวม","คำสั่งซื้อ","คอลเลกชัน","ลูกค้า","บันทึก"],"label":"เมนูสตูดิโอ","btn":"เมนู","itemH":56,"tH":44,"visText":"ปิด","foot":"AT Arisa T. หัวหน้าสตูดิโอ"}
+PASS  #pv-premium-dashboard Escape closes, focus returns  ["false",true,true]
+PASS  #pv-premium-dashboard outside click closes  
+PASS  #pv-premium-dashboard keyboard Tab→"คำสั่งซื้อ" + Enter: closes, current marked (menu + desktop nav + header), section under the sticky header  {"hidden":true,"cur":"คำสั่งซื้อ","desk":"คำสั่งซื้อ","title":"คำสั่งซื้อ","st":958,"gap":223,"barTop":0,"focus":true,"atEnd":true}
+PASS  D TH 390 profile available in the mobile menu  AT Arisa T. หัวหน้าสตูดิโอ
+PASS  L TH 430 real 430px container, no horizontal overflow  [430,430,430]
+PASS  L TH 430 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  L TH 430 no image over any words; items/sections never overlap; min font 12px  [[],{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0}]
+PASS  L TH 430 header: wordmark (328px) + menu fit, desktop links hidden  {"links":"none","navFits":true,"wordmark":328,"disp":{"font":52,"lh":1.24,"lines":["ความงาม","ที่เงียบสงบ"],"inside":true},"heroW":329,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"normal","labelLS":"normal"}
+PASS  L TH 430 headline 52px, line-height 1.24, lines: ["ความงาม","ที่เงียบสงบ"]  ["normal","normal"]
+PASS  L TH 430 sculpture is the centrepiece: 329px wide at 0.8 (4:5), detail overlaps it; CTA 48px; footer fits  {"links":"none","navFits":true,"wordmark":328,"disp":{"font":52,"lh":1.24,"lines":["ความงาม","ที่เงียบสงบ"],"inside":true},"heroW":329,"heroRatio":0.8,"detailOverlaps":true,"cta":[48,true],"footFits":true,"kickerLS":"normal","labelLS":"normal"}
+PASS  D TH 430 real 430px container, no horizontal overflow  [430,430,430]
+PASS  D TH 430 no text outside the frame or clipped; no vertical/fragmented wrapping  [[],[],[]]
+PASS  D TH 430 metrics/panels/rows never overlap; min font 10px (chart month labels only below 11)  [{"items":0,"panels":0,"metrics":0,"rows":0,"sections":0},["พ.ย.","ธ.ค.","ม.ค.","ก.พ.","มี.ค.","เม.ย.","พ.ค.","มิ.ย.","ก.ค.","ส.ค.","ก.ย.","ต.ค."]]
+PASS  D TH 430 sidebar → mobile header; main 430px; metrics 2 × 2; orders as stacked rows; actions fit (44,44,44)  {"side":"none","bar":"flex","mainW":430,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+PASS  D TH 430 chart: 12 month labels readable, no collisions, inside the panel  {"side":"none","bar":"flex","mainW":430,"metricCols":2,"labelCollisions":0,"labelsInside":true,"rows":["grid","grid","grid","grid"],"actsFit":true,"actH":[44,44,44],"topThumbs":3}
+
+84/84 passed; console errors: []

@@ -1,0 +1,137 @@
+{
+ "results": [
+  {
+   "id": "FIG-PRIM premium default",
+   "n": "primitives 77 (default), shades 100,200,300,400,50,500,600,700,800,900,950, valid sRGB",
+   "c": true,
+   "i": "{\"primary\":11,\"secondary\":11,\"neutral\":11,\"success\":11,\"info\":11,\"warning\":11,\"error\":11}"
+  },
+  {
+   "id": "FIG-SEM premium default",
+   "n": "semantic 112/112 (bg 49, text 21, icon 21, border 21); aliases 112/112 all resolve to Colors Primitives; modes ,",
+   "c": true,
+   "i": "{\"a\":[{\"n\":112,\"bad\":[]},{\"n\":112,\"bad\":[]}],\"modes\":[null,null],\"files\":[\"prim\",\"light\",\"dark\",\"size\"]}"
+  },
+  {
+   "id": "FIG-SIZE premium default",
+   "n": "size 66 ({\"space\":43,\"radius\":14,\"depth\":9}), no \".\" names, 11 negative, 8 half-steps, rounded-8xl true, rounded-full=[object Object], number types",
+   "c": false,
+   "i": "[\"number\"]"
+  },
+  {
+   "id": "FIG-VALID premium default",
+   "n": "validateFigma passes",
+   "c": true,
+   "i": "{\"ok\":true,\"errors\":[],\"counts\":{\"size\":66,\"sizeGroups\":{\"space\":43,\"radius\":14,\"depth\":9},\"primitives\":77,\"families\":[\"primary\",\"secondary\",\"neutral\",\"success\",\"info\",\"warning\",\"error\"],\"light\":112,\"dark\":112,\"groups\":{\"background\":49,\"text\":21,\"icon\":21,\"border\":21},\"aliasedLight\":112,\"aliasedDark"
+  },
+  {
+   "id": "CSS premium default",
+   "n": "dev CSS @theme 112 / :root 112 / .dark 112, no duplicates, valid HSL channels, no legacy names, validator true",
+   "c": true,
+   "i": "{\"legacy\":null,\"sample\":\"  --color-background-default-hover: hsla(var(--background-default-hover));\",\"err\":[]}"
+  },
+  {
+   "id": "FIG-PRIM premium + tertiary",
+   "n": "primitives 88 (tertiary on), shades 100,200,300,400,50,500,600,700,800,900,950, valid sRGB",
+   "c": true,
+   "i": "{\"primary\":11,\"secondary\":11,\"tertiary\":11,\"neutral\":11,\"success\":11,\"info\":11,\"warning\":11,\"error\":11}"
+  },
+  {
+   "id": "FIG-SEM premium + tertiary",
+   "n": "semantic 112/112 (bg 49, text 21, icon 21, border 21); aliases 112/112 all resolve to Colors Primitives; modes ,",
+   "c": true,
+   "i": "{\"a\":[{\"n\":112,\"bad\":[]},{\"n\":112,\"bad\":[]}],\"modes\":[null,null],\"files\":[\"prim\",\"light\",\"dark\",\"size\"]}"
+  },
+  {
+   "id": "FIG-SIZE premium + tertiary",
+   "n": "size 66 ({\"space\":43,\"radius\":14,\"depth\":9}), no \".\" names, 11 negative, 8 half-steps, rounded-8xl true, rounded-full=[object Object], number types",
+   "c": false,
+   "i": "[\"number\"]"
+  },
+  {
+   "id": "FIG-VALID premium + tertiary",
+   "n": "validateFigma passes",
+   "c": true,
+   "i": "{\"ok\":true,\"errors\":[],\"counts\":{\"size\":66,\"sizeGroups\":{\"space\":43,\"radius\":14,\"depth\":9},\"primitives\":88,\"families\":[\"primary\",\"secondary\",\"tertiary\",\"neutral\",\"success\",\"info\",\"warning\",\"error\"],\"light\":112,\"dark\":112,\"groups\":{\"background\":49,\"text\":21,\"icon\":21,\"border\":21},\"aliasedLight\":112,\""
+  },
+  {
+   "id": "CSS premium + tertiary",
+   "n": "dev CSS @theme 112 / :root 112 / .dark 112, no duplicates, valid HSL channels, no legacy names, validator true",
+   "c": true,
+   "i": "{\"legacy\":null,\"sample\":\"  --color-background-default-hover: hsla(var(--background-default-hover));\",\"err\":[]}"
+  },
+  {
+   "id": "FIG-PRIM playful dark",
+   "n": "primitives 88 (tertiary on), shades 100,200,300,400,50,500,600,700,800,900,950, valid sRGB",
+   "c": true,
+   "i": "{\"primary\":11,\"secondary\":11,\"tertiary\":11,\"neutral\":11,\"success\":11,\"info\":11,\"warning\":11,\"error\":11}"
+  },
+  {
+   "id": "FIG-SEM playful dark",
+   "n": "semantic 112/112 (bg 49, text 21, icon 21, border 21); aliases 112/112 all resolve to Colors Primitives; modes ,",
+   "c": true,
+   "i": "{\"a\":[{\"n\":112,\"bad\":[]},{\"n\":112,\"bad\":[]}],\"modes\":[null,null],\"files\":[\"prim\",\"light\",\"dark\",\"size\"]}"
+  },
+  {
+   "id": "FIG-SIZE playful dark",
+   "n": "size 66 ({\"space\":43,\"radius\":14,\"depth\":9}), no \".\" names, 11 negative, 8 half-steps, rounded-8xl true, rounded-full=[object Object], number types",
+   "c": false,
+   "i": "[\"number\"]"
+  },
+  {
+   "id": "FIG-VALID playful dark",
+   "n": "validateFigma passes",
+   "c": true,
+   "i": "{\"ok\":true,\"errors\":[],\"counts\":{\"size\":66,\"sizeGroups\":{\"space\":43,\"radius\":14,\"depth\":9},\"primitives\":88,\"families\":[\"primary\",\"secondary\",\"tertiary\",\"neutral\",\"success\",\"info\",\"warning\",\"error\"],\"light\":112,\"dark\":112,\"groups\":{\"background\":49,\"text\":21,\"icon\":21,\"border\":21},\"aliasedLight\":112,\""
+  },
+  {
+   "id": "CSS playful dark",
+   "n": "dev CSS @theme 112 / :root 112 / .dark 112, no duplicates, valid HSL channels, no legacy names, validator true",
+   "c": true,
+   "i": "{\"legacy\":null,\"sample\":\"  --color-background-default-hover: hsla(var(--background-default-hover));\",\"err\":[]}"
+  },
+  {
+   "id": "FIG-PRIM minimal custom + override",
+   "n": "primitives 77 (default), shades 100,200,300,400,50,500,600,700,800,900,950, valid sRGB",
+   "c": true,
+   "i": "{\"primary\":11,\"secondary\":11,\"neutral\":11,\"success\":11,\"info\":11,\"warning\":11,\"error\":11}"
+  },
+  {
+   "id": "FIG-SEM minimal custom + override",
+   "n": "semantic 112/112 (bg 49, text 21, icon 21, border 21); aliases 110/112 all resolve to Colors Primitives; modes ,",
+   "c": true,
+   "i": "{\"a\":[{\"n\":110,\"bad\":[]},{\"n\":112,\"bad\":[]}],\"modes\":[null,null],\"files\":[\"prim\",\"light\",\"dark\",\"size\"]}"
+  },
+  {
+   "id": "FIG-SIZE minimal custom + override",
+   "n": "size 66 ({\"space\":43,\"radius\":14,\"depth\":9}), no \".\" names, 11 negative, 8 half-steps, rounded-8xl true, rounded-full=[object Object], number types",
+   "c": false,
+   "i": "[\"number\"]"
+  },
+  {
+   "id": "FIG-VALID minimal custom + override",
+   "n": "validateFigma passes",
+   "c": true,
+   "i": "{\"ok\":true,\"errors\":[],\"counts\":{\"size\":66,\"sizeGroups\":{\"space\":43,\"radius\":14,\"depth\":9},\"primitives\":77,\"families\":[\"primary\",\"secondary\",\"neutral\",\"success\",\"info\",\"warning\",\"error\"],\"light\":112,\"dark\":112,\"groups\":{\"background\":49,\"text\":21,\"icon\":21,\"border\":21},\"aliasedLight\":110,\"aliasedDark"
+  },
+  {
+   "id": "CSS minimal custom + override",
+   "n": "dev CSS @theme 112 / :root 112 / .dark 112, no duplicates, valid HSL channels, no legacy names, validator true",
+   "c": true,
+   "i": "{\"legacy\":null,\"sample\":\"  --color-background-default-hover: hsla(var(--background-default-hover));\",\"err\":[]}"
+  },
+  {
+   "id": "EXPORT-UI-FIG",
+   "n": "export dialog Figma tab: self-check \"pass\", downloads offered",
+   "c": true,
+   "i": "{\"tabs\":[\"xtab-css:CSS — Tailwind v4\",\"xtab-json:JSON — Design Tokens\",\"xtab-figma:Figma Variables\"],\"fig\":{\"state\":\"pass\",\"text\":\"Ready for Figma — 77 primitives (7 families × 11) · 112 semantic variables in Light Mode + Dark Mode · 224 of 224 values linked to Colors Primitives.Contrast: 1 of 30 key semantic pairs are below target (exported as-is): Dark · text/primary/default "
+  },
+  {
+   "id": "EXPORT-UI-CSS",
+   "n": "CSS tab shows 21607 chars of code",
+   "c": true,
+   "i": "{\"len\":21607,\"head\":\"/* My Design System — generated by Moldable Design System Studio (Premium, edite\",\"file\":[]}"
+  }
+ ],
+ "errors": []
+}

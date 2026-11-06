@@ -1,0 +1,30 @@
+{
+ "nav": {
+  "dcl": 7334,
+  "load": 7335,
+  "transfer": 198309,
+  "res": 1,
+  "resKB": 76
+ },
+ "welcome": {
+  "dom": 2643,
+  "anims": 8,
+  "infinite": 8
+ },
+ "heapMB": [
+  "4.5",
+  "4.8"
+ ],
+ "docWinListeners": [
+  21,
+  21
+ ],
+ "dom": [
+  2643,
+  2643
+ ],
+ "lt": {
+  "switchMs": 629,
+  "longTasks": []
+ }
+}

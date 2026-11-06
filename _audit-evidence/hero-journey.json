@@ -1,0 +1,65 @@
+{
+ "results": [
+  {
+   "id": "HERO-1280",
+   "n": "FAH hit area at 1280×800 touches the copy box only — no glyph or CTA overlap; CTA gets the click",
+   "c": true,
+   "i": "{\"fah\":[503,473,697,621],\"glyphOverlap\":0,\"ctaOverlap\":false,\"ctaHitTop\":\"cta\"}"
+  },
+  {
+   "id": "JRN-1",
+   "n": "Start Creating → Playground, guided, step 1 (PAI · Style)",
+   "c": true,
+   "i": "{\"hash\":\"#playground\",\"flow\":\"guided\",\"step\":0,\"reached\":0,\"shaped\":false,\"preset\":\"premium\",\"colors\":\"{\\\"primary\\\":\\\"#6b5bd2\\\",\\\"secondary\\\":\\\"#4f8a96\\\",\\\"tertiary\\\":\\\"#e27a9c\\\",\\\"background\\\":\\\"#fbfafd\\\",\\\"text\\\":\\\"#1c1a22\\\"}\",\"cat\":\"style\",\"insp\":true,\"title\":\"Find your vibe\",\"guide\":\"with PAI\",\"count\":\"01 / 05\",\"next\":\"Shape my clay\",\"backDisabled\":true,\"mode\":\"Edit freely\",\"comp\":\"pai\"}"
+  },
+  {
+   "id": "JRN-2",
+   "n": "first Next shapes the default style (stays on Style), then Next walks Style → Colors → Typography → Shape → Accessibility (PAI, FAMAI, ACT, MIN, FAH)",
+   "c": true,
+   "i": "[[0,\"with PAI\",\"pai\",\"Find your vibe\"],[0,\"with PAI\",\"pai\",\"Find your vibe\"],[1,\"with FAMAI\",\"famai\",\"Mix your colors\"],[2,\"with ACT\",\"act\",\"Give it a voice\"],[3,\"with MIN\",\"min\",\"Shape the details\"],[4,\"with FAH\",\"fah\",\"Make it accessible\"]]"
+  },
+  {
+   "id": "JRN-3",
+   "n": "Back returns one step (5 → 4)",
+   "c": true,
+   "i": "{\"hash\":\"#playground\",\"flow\":\"guided\",\"step\":3,\"reached\":4,\"shaped\":true,\"preset\":\"premium\",\"colors\":\"{\\\"primary\\\":\\\"#5b4a3a\\\",\\\"secondary\\\":\\\"#7d7a6b\\\",\\\"tertiary\\\":\\\"#a9826a\\\",\\\"background\\\":\\\"#f7f3ed\\\",\\\"text\\\":\\\"#221f1b\\\"}\",\"cat\":\"style\",\"insp\":true,\"title\":\"Shape the details\",\"guide\":\"with MIN\",\"count\":\"04 / 05\",\"next\":\"Next\",\"backDisabled\":false,\"mode\":\"Edit freely\",\"comp\":\"min\"}"
+  },
+  {
+   "id": "JRN-4",
+   "n": "step dots jump to a reached step (→ Colors)",
+   "c": true,
+   "i": "{\"hash\":\"#playground\",\"flow\":\"guided\",\"step\":1,\"reached\":4,\"shaped\":true,\"preset\":\"premium\",\"colors\":\"{\\\"primary\\\":\\\"#5b4a3a\\\",\\\"secondary\\\":\\\"#7d7a6b\\\",\\\"tertiary\\\":\\\"#a9826a\\\",\\\"background\\\":\\\"#f7f3ed\\\",\\\"text\\\":\\\"#221f1b\\\"}\",\"cat\":\"style\",\"insp\":true,\"title\":\"Mix your colors\",\"guide\":\"with FAMAI\",\"count\":\"02 / 05\",\"next\":\"Next\",\"backDisabled\":false,\"mode\":\"Edit freely\",\"comp\":\"famai\"}"
+  },
+  {
+   "id": "JRN-5",
+   "n": "Edit freely from step 2: free mode, Colors category, inspector open, nothing reset",
+   "c": true,
+   "i": "{\"hash\":\"#playground\",\"flow\":\"free\",\"step\":1,\"reached\":4,\"shaped\":true,\"preset\":\"premium\",\"colors\":\"{\\\"primary\\\":\\\"#5b4a3a\\\",\\\"secondary\\\":\\\"#7d7a6b\\\",\\\"tertiary\\\":\\\"#a9826a\\\",\\\"background\\\":\\\"#f7f3ed\\\",\\\"text\\\":\\\"#221f1b\\\"}\",\"cat\":\"color\",\"insp\":true,\"title\":\"Mix your colors\",\"guide\":\"with FAMAI\",\"count\":\"02 / 05\",\"next\":\"Next\",\"backDisabled\":false,\"mode\":\"Back to guide\",\"comp\":\"famai\"}"
+  },
+  {
+   "id": "JRN-6",
+   "n": "Back to guide returns to the same step with the same colours",
+   "c": true,
+   "i": "{\"hash\":\"#playground\",\"flow\":\"guided\",\"step\":1,\"reached\":4,\"shaped\":true,\"preset\":\"premium\",\"colors\":\"{\\\"primary\\\":\\\"#5b4a3a\\\",\\\"secondary\\\":\\\"#7d7a6b\\\",\\\"tertiary\\\":\\\"#a9826a\\\",\\\"background\\\":\\\"#f7f3ed\\\",\\\"text\\\":\\\"#221f1b\\\"}\",\"cat\":\"color\",\"insp\":true,\"title\":\"Mix your colors\",\"guide\":\"with FAMAI\",\"count\":\"02 / 05\",\"next\":\"Next\",\"backDisabled\":false,\"mode\":\"Edit freely\",\"comp\":\"famai\"}"
+  },
+  {
+   "id": "JRN-7",
+   "n": "Next on the last step finishes into Edit freely (no dead end)",
+   "c": true,
+   "i": "[\"free\",4,\"Journey complete — everything stays editable.\"]"
+  },
+  {
+   "id": "JRN-8",
+   "n": "reload keeps the saved state (flow, step, colours)",
+   "c": true,
+   "i": "[\"free\",4]"
+  },
+  {
+   "id": "JRN-9",
+   "n": "Welcome ⇄ Playground round trip keeps state",
+   "c": true,
+   "i": "[[true,\"#welcome\"],\"free\"]"
+  }
+ ],
+ "errors": []
+}

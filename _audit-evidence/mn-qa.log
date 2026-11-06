@@ -1,0 +1,66 @@
+PASS  D375 real 375px container; no horizontal overflow  [375,375,375]
+PASS  D375 no text outside the frame, none clipped by its card  [[],[]]
+PASS  D375 no character-by-character wrapping; narrowest card 162px  []
+PASS  D375 nothing overlaps (KPIs, cards, tasks, project rows, sections)  {"kpi":0,"cards":0,"tasks":0,"rows":0,"proj":0,"steps":0,"sections":0}
+PASS  D375 readable type: min 11px (only chart axis labels at 10–11px)  []
+PASS  D375 sidebar replaced by the mobile header; content uses the full width (375px); KPIs 2 × 2  {"side":"none","bar":"flex","mainW":375,"kpiCols":2,"rowsStacked":true,"rows":5,"names":["Tower House","Gallery Annex","Pavilion 9","Courtyard Housing","Studio Loft"],"toggle":[105,44],"filters":[40,40,40,40],"seg":[38,38,38],"search":337}
+PASS  D375 Projects table → 5 stacked rows (Tower House … Studio Loft)  Tower House,Gallery Annex,Pavilion 9,Courtyard Housing,Studio Loft
+PASS  D375 touch targets: menu 105,44, filters 40px, period 38px, full-width search  {"side":"none","bar":"flex","mainW":375,"kpiCols":2,"rowsStacked":true,"rows":5,"names":["Tower House","Gallery Annex","Pavilion 9","Courtyard Housing","Studio Loft"],"toggle":[105,44],"filters":[40,40,40,40],"seg":[38,38,38],"search":337}
+PASS  D375 chart "Year": 12 bars, labels don't collide and stay in the card  {"n":12,"col":0,"inside":true}
+PASS  L375 real 375px container; no horizontal overflow  [375,375]
+PASS  L375 no text outside the frame or clipped; no character-by-character wrapping  [[],[],[]]
+PASS  L375 projects / steps / sections never overlap; min font 12px  {"kpi":0,"cards":0,"tasks":0,"rows":0,"proj":0,"steps":0,"sections":0}
+PASS  L375 header: links hidden, wordmark + menu fit, 73px tall  {"links":"none","navFits":true,"navH":73,"disp":[[19,256,1],[87,169,1],[17,356,1]],"dispFont":75,"imgRatio":1.333,"riseW":1.304,"kExp":1.304,"riseL":-0.061,"riseBottom":1,"cta":[48,true],"mark":[19,355],"W":375}
+PASS  L375 headline SPACE / IN / MOTION. at 75px — each word on one line, inside the frame  [[19,256,1],[87,169,1],[17,356,1]]
+PASS  L375 hero image 4:3 crop; building band scaled ×1.304 and aligned to the crop  {"links":"none","navFits":true,"navH":73,"disp":[[19,256,1],[87,169,1],[17,356,1]],"dispFont":75,"imgRatio":1.333,"riseW":1.304,"kExp":1.304,"riseL":-0.061,"riseBottom":1,"cta":[48,true],"mark":[19,355],"W":375}
+PASS  L375 CTA 48px visible; footer wordmark inside the gutters  [[48,true],[19,355]]
+PASS  D390 real 390px container; no horizontal overflow  [390,390,390]
+PASS  D390 no text outside the frame, none clipped by its card  [[],[]]
+PASS  D390 no character-by-character wrapping; narrowest card 169px  []
+PASS  D390 nothing overlaps (KPIs, cards, tasks, project rows, sections)  {"kpi":0,"cards":0,"tasks":0,"rows":0,"proj":0,"steps":0,"sections":0}
+PASS  D390 readable type: min 11px (only chart axis labels at 10–11px)  []
+PASS  D390 sidebar replaced by the mobile header; content uses the full width (390px); KPIs 2 × 2  {"side":"none","bar":"flex","mainW":390,"kpiCols":2,"rowsStacked":true,"rows":5,"names":["Tower House","Gallery Annex","Pavilion 9","Courtyard Housing","Studio Loft"],"toggle":[105,44],"filters":[40,40,40,40],"seg":[38,38,38],"search":352}
+PASS  D390 Projects table → 5 stacked rows (Tower House … Studio Loft)  Tower House,Gallery Annex,Pavilion 9,Courtyard Housing,Studio Loft
+PASS  D390 touch targets: menu 105,44, filters 40px, period 38px, full-width search  {"side":"none","bar":"flex","mainW":390,"kpiCols":2,"rowsStacked":true,"rows":5,"names":["Tower House","Gallery Annex","Pavilion 9","Courtyard Housing","Studio Loft"],"toggle":[105,44],"filters":[40,40,40,40],"seg":[38,38,38],"search":352}
+PASS  D390 chart "Year": 12 bars, labels don't collide and stay in the card  {"n":12,"col":0,"inside":true}
+PASS  D390 chart: tapping Tue selects it, detail updates  
+PASS  D390 task filter "Review" → 2 tasks, still clean  
+PASS  D390 search "pav" → Pavilion 9 only; hidden rows really hidden  Pavilion 9
+PASS  D390 no-result row shows readable message  [false,"No projects match “zzz”.",312]
+PASS  #pv-minimal-dashboard menu opens: aria-expanded, items Overview,Projects,Tasks,Calendar,Reports, inside the frame, ≥48px rows, labelled, button reads "Close"  {"exp":"true","hidden":false,"inFrame":true,"items":["Overview","Projects","Tasks","Calendar","Reports"],"label":"Workspace menu","btn":"Menu","visText":"Close","itemH":62.421875,"extra":"Settings NK Nida K. Project lead"}
+PASS  #pv-minimal-dashboard Escape closes and returns focus  ["false",true,true]
+PASS  #pv-minimal-dashboard outside click closes  
+PASS  #pv-minimal-dashboard keyboard Tab→"02Projects" + Enter: menu closes, current marked (menu + desktop nav + header), section scrolled under the sticky header  {"hidden":true,"cur":"02Projects","desk":"Projects","title":"Projects","st":2383,"gap":14,"barTop":0,"focus":true}
+PASS  D390 profile + settings available in the mobile menu  Settings NK Nida K. Project lead
+PASS  D390 desktop sidebar choice ("Tasks") carries into the mobile header + menu  Tasks | 03Tasks
+PASS  D390 TH: menu labels translate, header keeps the destination  เมนู | เมนู | งาน
+PASS  D390 TH layout: nothing outside the frame, no char wrap  [[],[],[]]
+PASS  L390 real 390px container; no horizontal overflow  [390,390]
+PASS  L390 no text outside the frame or clipped; no character-by-character wrapping  [[],[],[]]
+PASS  L390 projects / steps / sections never overlap; min font 12px  {"kpi":0,"cards":0,"tasks":0,"rows":0,"proj":0,"steps":0,"sections":0}
+PASS  L390 header: links hidden, wordmark + menu fit, 73px tall  {"links":"none","navFits":true,"navH":73,"disp":[[19,265,1],[89,175,1],[18,371,1]],"dispFont":78,"imgRatio":1.333,"riseW":1.304,"kExp":1.304,"riseL":-0.061,"riseBottom":1,"cta":[48,true],"mark":[19,369],"W":390}
+PASS  L390 headline SPACE / IN / MOTION. at 78px — each word on one line, inside the frame  [[19,265,1],[89,175,1],[18,371,1]]
+PASS  L390 hero image 4:3 crop; building band scaled ×1.304 and aligned to the crop  {"links":"none","navFits":true,"navH":73,"disp":[[19,265,1],[89,175,1],[18,371,1]],"dispFont":78,"imgRatio":1.333,"riseW":1.304,"kExp":1.304,"riseL":-0.061,"riseBottom":1,"cta":[48,true],"mark":[19,369],"W":390}
+PASS  L390 CTA 48px visible; footer wordmark inside the gutters  [[48,true],[19,369]]
+PASS  #pv-minimal-landing menu opens: aria-expanded, items Work,Studio,Process,Journal, inside the frame, ≥48px rows, labelled, button reads "Close"  {"exp":"true","hidden":false,"inFrame":true,"items":["Work","Studio","Process","Journal"],"label":"Site menu","btn":"Menu","visText":"Close","itemH":62.421875,"extra":"Contact"}
+PASS  #pv-minimal-landing Escape closes and returns focus  ["false",true,true]
+PASS  #pv-minimal-landing outside click closes  
+PASS  #pv-minimal-landing keyboard Tab→"03Process" + Enter: menu closes, current marked (menu + desktop nav), section scrolled under the sticky header  {"hidden":true,"cur":"03Process","desk":"Process","title":null,"st":2829,"gap":16,"barTop":0,"focus":true}
+PASS  D430 real 430px container; no horizontal overflow  [430,430,430]
+PASS  D430 no text outside the frame, none clipped by its card  [[],[]]
+PASS  D430 no character-by-character wrapping; narrowest card 189px  []
+PASS  D430 nothing overlaps (KPIs, cards, tasks, project rows, sections)  {"kpi":0,"cards":0,"tasks":0,"rows":0,"proj":0,"steps":0,"sections":0}
+PASS  D430 readable type: min 11px (only chart axis labels at 10–11px)  []
+PASS  D430 sidebar replaced by the mobile header; content uses the full width (430px); KPIs 2 × 2  {"side":"none","bar":"flex","mainW":430,"kpiCols":2,"rowsStacked":true,"rows":5,"names":["Tower House","Gallery Annex","Pavilion 9","Courtyard Housing","Studio Loft"],"toggle":[105,44],"filters":[40,40,40,40],"seg":[38,38,38],"search":392}
+PASS  D430 Projects table → 5 stacked rows (Tower House … Studio Loft)  Tower House,Gallery Annex,Pavilion 9,Courtyard Housing,Studio Loft
+PASS  D430 touch targets: menu 105,44, filters 40px, period 38px, full-width search  {"side":"none","bar":"flex","mainW":430,"kpiCols":2,"rowsStacked":true,"rows":5,"names":["Tower House","Gallery Annex","Pavilion 9","Courtyard Housing","Studio Loft"],"toggle":[105,44],"filters":[40,40,40,40],"seg":[38,38,38],"search":392}
+PASS  D430 chart "Year": 12 bars, labels don't collide and stay in the card  {"n":12,"col":0,"inside":true}
+PASS  L430 real 430px container; no horizontal overflow  [430,430]
+PASS  L430 no text outside the frame or clipped; no character-by-character wrapping  [[],[],[]]
+PASS  L430 projects / steps / sections never overlap; min font 12px  {"kpi":0,"cards":0,"tasks":0,"rows":0,"proj":0,"steps":0,"sections":0}
+PASS  L430 header: links hidden, wordmark + menu fit, 73px tall  {"links":"none","navFits":true,"navH":73,"disp":[[19,291,1],[96,190,1],[22,411,1]],"dispFont":86,"imgRatio":1.333,"riseW":1.304,"kExp":1.304,"riseL":-0.061,"riseBottom":1,"cta":[48,true],"mark":[19,409],"W":430}
+PASS  L430 headline SPACE / IN / MOTION. at 86px — each word on one line, inside the frame  [[19,291,1],[96,190,1],[22,411,1]]
+PASS  L430 hero image 4:3 crop; building band scaled ×1.304 and aligned to the crop  {"links":"none","navFits":true,"navH":73,"disp":[[19,291,1],[96,190,1],[22,411,1]],"dispFont":86,"imgRatio":1.333,"riseW":1.304,"kExp":1.304,"riseL":-0.061,"riseBottom":1,"cta":[48,true],"mark":[19,409],"W":430}
+PASS  L430 CTA 48px visible; footer wordmark inside the gutters  [[48,true],[19,409]]
+
+64/64 passed; console errors: []

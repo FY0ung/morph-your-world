@@ -1,0 +1,161 @@
+{
+ "results": [
+  {
+   "id": "DESK premium/landing/light @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-premium-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK premium/landing/dark @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-premium-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK premium/dashboard/light @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-premium-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK premium/dashboard/dark @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-premium-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK minimal/landing/light @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-minimal-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK minimal/landing/dark @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-minimal-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK minimal/dashboard/light @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-minimal-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK minimal/dashboard/dark @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-minimal-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK playful/landing/light @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-playful-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK playful/landing/dark @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-playful-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK playful/dashboard/light @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-playful-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK playful/dashboard/dark @1440",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.807",
+   "c": true,
+   "i": "{\"id\":\"pv-playful-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.807}"
+  },
+  {
+   "id": "DESK premium/landing/light @1280",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.673",
+   "c": true,
+   "i": "{\"id\":\"pv-premium-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.673}"
+  },
+  {
+   "id": "DESK premium/dashboard/light @1280",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.673",
+   "c": true,
+   "i": "{\"id\":\"pv-premium-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.673}"
+  },
+  {
+   "id": "DESK minimal/landing/light @1280",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.673",
+   "c": true,
+   "i": "{\"id\":\"pv-minimal-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.673}"
+  },
+  {
+   "id": "DESK minimal/dashboard/light @1280",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.673",
+   "c": true,
+   "i": "{\"id\":\"pv-minimal-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.673}"
+  },
+  {
+   "id": "DESK playful/landing/light @1280",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.673",
+   "c": true,
+   "i": "{\"id\":\"pv-playful-landing\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.673}"
+  },
+  {
+   "id": "DESK playful/dashboard/light @1280",
+   "n": "1200px desktop frame: no text past the frame edge, no broken images, no mobile header leaking, zoom 0.673",
+   "c": true,
+   "i": "{\"id\":\"pv-playful-dashboard\",\"w\":1200,\"sw\":1200,\"broken\":[],\"out\":[],\"mobileUi\":0,\"z\":0.673}"
+  },
+  {
+   "id": "STATE-PRESET",
+   "n": "Premium → Minimal → Playful → Premium: preset/template follow; edited primary #0f8a5f kept",
+   "c": true,
+   "i": "{\"s0\":{\"preset\":\"premium\",\"primary\":\"#0f8a5f\",\"preview\":\"landing\",\"vp\":\"desktop\",\"mode\":\"light\",\"zoom\":\"width\",\"fp\":\"premium\",\"fm\":\"light\",\"vis\":\"pv-premium-landing\",\"tokP\":\"#0f8a5f\",\"heading\":\"Newsreader\",\"radius\":10},\"s1\":{\"preset\":\"premium\",\"primary\":\"#0f8a5f\",\"preview\":\"landing\",\"vp\":\"desktop\",\"mode\":\"light\",\"zoom\":\"width\",\"fp\":\"premium\",\"fm\":\"light\",\"vis\":\"pv-premium-landing\",\"tokP\":\"#0f8a5f\""
+  },
+  {
+   "id": "STATE-PERSIST",
+   "n": "Landing→Dashboard, Desktop→Mobile, Light→Dark all apply and survive a reload with the same tokens",
+   "c": false,
+   "i": "{\"s2\":{\"preset\":\"premium\",\"primary\":\"#0f8a5f\",\"preview\":\"dashboard\",\"vp\":\"mobile\",\"mode\":\"dark\",\"zoom\":\"width\",\"fp\":\"premium\",\"fm\":\"dark\",\"vis\":\"pv-premium-dashboard\",\"tokP\":\"#46e1ab\",\"heading\":\"Newsreader\",\"radius\":10},\"same\":false}"
+  },
+  {
+   "id": "ZOOM",
+   "n": "zoom options apply: [[\"width\",\"81%\"],[\"screen\",\"67%\"],[\"100\",\"100%\"]]",
+   "c": true,
+   "i": "[[\"width\",\"81%\"],[\"screen\",\"67%\"],[\"100\",\"100%\"]]"
+  },
+  {
+   "id": "L10N-OVERLAY",
+   "n": "switching to TH while the Export dialog is open re-translates the dialog",
+   "c": true,
+   "i": "{\"th\":true,\"sample\":\"ส่งออกโทเคน ดีไซน์ซิสเต็มของฉัน · Premium (ปรับแล้ว) · สว่าง + มืด CSS — Tailwind v4 JSON \"}"
+  },
+  {
+   "id": "L10N-SHELL",
+   "n": "TH app shell: 28 visible text nodes; Latin-only strings: 6; clipped: 6; tracked Thai: 0",
+   "c": false,
+   "i": "{\"n\":28,\"latin\":[\"FORME\",\"Premium\",\"LINEWORK.\",\"FORM.\",\"Minimal\",\"Playful\"],\"clipped\":[\"สไตล์\",\"สี\",\"ตัวอักษร\",\"รูปทรง\",\"เอฟเฟกต์\",\"คอมโพเนนต์\"],\"ls\":[]}"
+  },
+  {
+   "id": "LIB-LIST",
+   "n": "component browser: 6 categories, 27 entries, Pro: dialog,progress-bar; \"27 components · 26 Free · 1 Pro\"",
+   "c": true,
+   "i": "{\"groups\":6,\"items\":27,\"ids\":[\"button\",\"icon-button\",\"dialog\",\"checkbox\",\"radio\",\"search-field\",\"slider\",\"switch\",\"text-area\",\"text-field\",\"dropdowns\",\"select\",\"tag\",\"breadcrumbs\",\"menu\",\"pagination\",\"tabs\",\"accordion\",\"cards\",\"avatars\",\"badge\",\"banner\",\"progress-bar\",\"rating\",\"skeleton\",\"spinner\",\"table\"],\"pro\":[\"dialog\",\"progress-bar\"],\"count\":\"27 components · 26 Free · 1 Pro"
+  },
+  {
+   "id": "LIB-DEMO",
+   "n": "component detail pages: Free demo renders with code; Pro (dialog) locked without code; not-yet-built entries say so",
+   "c": true,
+   "i": "[[\"button\",{\"vis\":true,\"locked\":false,\"soon\":false,\"code\":true,\"h\":\"Button\"}],[\"text-field\",{\"vis\":true,\"locked\":false,\"soon\":false,\"code\":true,\"h\":\"Text Field\"}],[\"dialog\",{\"vis\":true,\"locked\":true,\"soon\":false,\"code\":true,\"h\":\"Dialog\"}],[\"checkbox\",{\"vis\":true,\"locked\":true,\"soon\":true,\"code\":true,\"h\":\"Checkbox\"}]]"
+  },
+  {
+   "id": "LIB-EMPTY",
+   "n": "search with no matches shows an empty state",
+   "c": true,
+   "i": "[\"Showing 0 of 27\",0,\"No components match “zzzz”Try a shorter word, or search by what it does — “toggle”, “modal”, “input”.Clear search\"]"
+  }
+ ],
+ "errors": []
+}

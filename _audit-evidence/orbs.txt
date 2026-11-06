@@ -1,0 +1,22 @@
+PASS  1440×900: 4 orbs are real <button type=button>, named, not aria-hidden  ["Pink mochi orb — squish it","Lavender mochi orb — squish it","Blue mochi orb — squish it","Lilac mochi orb — sq
+PASS  1440×900: every orb receives pointer hits (incl. the one under the nav band); hit area ≥44px; pointer cursor  [[true,true,true,true],[44,68,44,44]]
+PASS  1440×900: nav logo + nav Start Creating still clickable  
+PASS  1440×900: no overlap with headline/CTA/copy/nav/characters (bodies) or controls (hit areas); no h-scroll  [[],[]]
+PASS  Hover: body lifts + scales a touch  matrix(1.06, 0, 0, 1.06, 0, -3)
+PASS  Click: squish animation + bloom ring + 5 motes  {"bloom":1,"motes":5,"squish":1}
+PASS  Click: fx cleaned up, orb back at rest  {"bloom":0,"motes":0,"squish":0}
+PASS  Rapid clicks: never stack (1 squish, 1 bloom, 5 motes max)  {"bloom":1,"motes":5,"squish":1}
+PASS  Keyboard: Tab from the CTA lands on the first orb with a visible focus ring  pink|true|solid
+PASS  Keyboard: Enter and Space both trigger the squish  [{"bloom":1,"motes":5,"squish":1},{"bloom":1,"motes":5,"squish":1}]
+PASS  Keyboard: all 4 orbs reachable in order, Tab then leaves the hero  mist
+PASS  TH: orb labels translate live  โมจิสีชมพู — กดบีบเล่น / โมจิสีลาเวนเดอร์ — กดบีบเล่น / โมจิส
+PASS  Crew bubble still pins on click  pai
+PASS  1440×900: no console errors  
+PASS  1280×800: 4 orbs are real <button type=button>, named, not aria-hidden  ["Pink mochi orb — squish it","Lavender mochi orb — squish it","Blue mochi orb — squish it","Lilac mochi orb — sq
+PASS  1280×800: every orb receives pointer hits (incl. the one under the nav band); hit area ≥44px; pointer cursor  [[true,true,true,true],[44,68,44,44]]
+PASS  1280×800: nav logo + nav Start Creating still clickable  
+PASS  1280×800: no overlap with headline/CTA/copy/nav/characters (bodies) or controls (hit areas); no h-scroll  [[],[]]
+PASS  1280×800: no console errors  
+PASS  Touch: tap squishes  {"bloom":1,"motes":5,"squish":1}
+PASS  Reduced motion: no float, no hover lift, click = still glow only (no squish, no motes)  ["none/none","none",{"bloom":1,"motes":0,"squish":0}]
+PASS  Reduced motion: glow removed after fade; no errors  

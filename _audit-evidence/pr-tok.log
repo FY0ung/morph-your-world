@@ -1,0 +1,8 @@
+PASS  Tokens: a colour changed in Mobile is the same in Desktop and back (one token state)  ["rgb(214, 64, 159)","rgb(214, 64, 159)","#d6409f",2091]
+PASS  Tokens: radius, heading font and spacing on Premium mobile come from the generated tokens  {"r":"12px","kpiR":"12px","hf":"\"Newsreader\", \"Noto Serif Thai","h1f":"Newsreader, \"Noto Serif Thai\",","pop1":"19px","kpiBg":"19px"}
+PASS  Dark mode on mobile: tokens switch, mobile layout kept, no overflow  {"mode":"dark","bg":"rgb(34, 27, 32)","bar":"flex","nav":"none","sw":390,"cw":390}
+PASS  FAH contrast chip still visible and reporting in Mobile  [false,"1 to fix"]
+PASS  TH landing mobile: nothing outside the frame  {"out":[],"sw":390,"cw":390,"lang":"en"}
+PASS  TH dashboard mobile: nothing outside the frame  {"out":[],"sw":390,"cw":390,"lang":"en"}
+
+6/6 passed; console errors: []

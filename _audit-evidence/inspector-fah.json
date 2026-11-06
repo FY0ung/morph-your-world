@@ -1,0 +1,119 @@
+{
+ "results": [
+  {
+   "id": "INSP-style",
+   "n": "rail \"style\" opens its panel (aria-pressed, labelled), no horizontal overflow",
+   "c": true,
+   "i": "{\"pressed\":\"true\",\"label\":\"Style\",\"vis\":true,\"head\":\"Make it accessible\",\"hOverflow\":0}"
+  },
+  {
+   "id": "INSP-color",
+   "n": "rail \"color\" opens its panel (aria-pressed, labelled), no horizontal overflow",
+   "c": true,
+   "i": "{\"pressed\":\"true\",\"label\":\"Colors\",\"vis\":true,\"head\":\"Make it accessible\",\"hOverflow\":0}"
+  },
+  {
+   "id": "INSP-type",
+   "n": "rail \"type\" opens its panel (aria-pressed, labelled), no horizontal overflow",
+   "c": true,
+   "i": "{\"pressed\":\"true\",\"label\":\"Type\",\"vis\":true,\"head\":\"Make it accessible\",\"hOverflow\":0}"
+  },
+  {
+   "id": "INSP-shape",
+   "n": "rail \"shape\" opens its panel (aria-pressed, labelled), no horizontal overflow",
+   "c": true,
+   "i": "{\"pressed\":\"true\",\"label\":\"Shape\",\"vis\":true,\"head\":\"Make it accessible\",\"hOverflow\":0}"
+  },
+  {
+   "id": "INSP-effects",
+   "n": "rail \"effects\" opens its panel (aria-pressed, labelled), no horizontal overflow",
+   "c": true,
+   "i": "{\"pressed\":\"true\",\"label\":\"Effects\",\"vis\":true,\"head\":\"Make it accessible\",\"hOverflow\":0}"
+  },
+  {
+   "id": "INSP-components",
+   "n": "rail \"components\" opens its panel (aria-pressed, labelled), no horizontal overflow",
+   "c": true,
+   "i": "{\"pressed\":\"true\",\"label\":\"Components\",\"vis\":true,\"head\":\"Make it accessible\",\"hOverflow\":0}"
+  },
+  {
+   "id": "SCALES",
+   "n": "generated colour scales visible in the Colors panel: 2 — each 11 shades 050…950, 24×24, one row, unclipped",
+   "c": true,
+   "i": "[{\"lab\":\"Primary color scale\",\"n\":11,\"steps\":\"050,100,200,300,400,500,600,700,800,900,950\",\"sizes\":[\"24x24\"],\"rows\":1,\"clipped\":false},{\"lab\":\"Secondary color scale\",\"n\":11,\"steps\":\"050,100,200,300,400,500,600,700,800,900,950\",\"sizes\":[\"24x24\"],\"rows\":1,\"clipped\":false}]"
+  },
+  {
+   "id": "SCALES-ADV",
+   "n": "with Advanced colours open: 7 visible scales (neutral/status included), all 11 shades × 24px in one row",
+   "c": true,
+   "i": "[{\"n\":11,\"ok11\":true,\"size\":\"24x24\",\"rows\":1},{\"n\":11,\"ok11\":true,\"size\":\"24x24\",\"rows\":1},{\"n\":11,\"ok11\":true,\"size\":\"24x24\",\"rows\":1},{\"n\":11,\"ok11\":true,\"size\":\"24x24\",\"rows\":1},{\"n\":11,\"ok11\":true,\"size\":\"24x24\",\"rows\":1},{\"n\":11,\"ok11\":true,\"size\":\"24x24\",\"rows\":1},{\"n\":11,\"ok11\":true,\"size\":\"24x24\",\"rows\":1}]"
+  },
+  {
+   "id": "STATUS-MODE",
+   "n": "no obsolete \"Standard\" status-colour mode in the Colors panel",
+   "c": true,
+   "i": "{\"standard\":false,\"harmon\":false,\"segs\":0}"
+  },
+  {
+   "id": "HEX-VALID",
+   "n": "invalid hex is rejected (token unchanged) and flagged",
+   "c": true,
+   "i": "{\"before\":\"#3d63dd\",\"after\":\"#3d63dd\",\"inv\":{\"invalid\":\"true\",\"cls\":\"field-input hex\",\"msg\":\"\"}}"
+  },
+  {
+   "id": "TOKENS-LIVE",
+   "n": "colour, heading font, radius, shadow and spacing controls change the tokens and the live preview",
+   "c": false,
+   "i": "{\"t0\":{\"p\":\"#3d63dd\",\"hf\":\"\\\"Newsreader\\\", \\\"Noto Serif Thai\\\", Georgia, serif\",\"r\":\"12px\",\"sh\":\"0 6px 18px -8px rgba(16, 14, 30, 0.192)\",\"sp\":\"19px\"},\"t1\":{\"p\":\"#0f8a5f\",\"hf\":\"\\\"Archivo\\\", \\\"Noto Sans Thai\\\", system-ui, sans-serif\",\"r\":\"2px\",\"sh\":\"0 10px 28px -8px rgba(16, 14, 30, 0.312)\",\"sp\":\"19px\"},\"live\":{\"btnBg\":\"rgb(15, 138, 95)\",\"hFont\":\"Archivo, \\\"Noto Sans Thai\\\", sys\",\"radius\":\"2px\"}}"
+  },
+  {
+   "id": "SKIP-LINK",
+   "n": "Skip to content keeps the user in the Playground",
+   "c": true,
+   "i": "{\"sk\":[\"seg-btn\",null,\"Flat\"],\"after2\":{\"hash\":\"#playground\",\"welcome\":false,\"playground\":true}}"
+  },
+  {
+   "id": "FAH-COUNT-premium",
+   "n": "premium: audited pairs per mode = 13/13 (total 26)",
+   "c": true,
+   "i": "{\"light\":13,\"dark\":13,\"ids\":[\"body\",\"muted\",\"button\",\"link\",\"badge\",\"large\",\"control\",\"border\",\"st-success\",\"st-warning\",\"st-danger\",\"st-info\",\"st-danger-btn\"]}"
+  },
+  {
+   "id": "FAH-COUNT-minimal",
+   "n": "minimal: audited pairs per mode = 13/13 (total 26)",
+   "c": true,
+   "i": "{\"light\":13,\"dark\":13,\"ids\":[\"body\",\"muted\",\"button\",\"link\",\"badge\",\"large\",\"control\",\"border\",\"st-success\",\"st-warning\",\"st-danger\",\"st-info\",\"st-danger-btn\"]}"
+  },
+  {
+   "id": "FAH-COUNT-playful",
+   "n": "playful: audited pairs per mode = 17/17 (total 34)",
+   "c": true,
+   "i": "{\"light\":17,\"dark\":17,\"ids\":[\"body\",\"muted\",\"button\",\"link\",\"badge\",\"large\",\"control\",\"border\",\"st-success\",\"st-warning\",\"st-danger\",\"st-info\",\"st-danger-btn\",\"pop1\",\"pop2\",\"pop3\",\"pop4\"]}"
+  },
+  {
+   "id": "FAH-DETECT",
+   "n": "low-contrast text (#a9a9b2) + pale primary are detected: 5 failing pairs, chip \"5 to fix\"",
+   "c": true,
+   "i": "{\"fails\":[\"body\",\"muted\",\"link\",\"large\",\"control\"],\"chip\":\"5 to fix\",\"chipHidden\":false}"
+  },
+  {
+   "id": "FAH-NAMES",
+   "n": "audit drawer shows readable pair names (no raw i18n keys)",
+   "c": false,
+   "i": "{\"open\":true,\"raw\":[\"a11y.pair.st-success\",\"a11y.pair.st-warning\",\"a11y.pair.st-danger\",\"a11y.pair.st-info\",\"a11y.pair.st-danger-btn\",\"a11y.pair.st-success\",\"a11y.pair.st-warning\",\"a11y.pair.st-danger\",\"a11y.pair.st-info\",\"a11y.pair.st-danger-btn\"],\"names\":26}"
+  },
+  {
+   "id": "FAH-FIX",
+   "n": "Fix all: failing pairs 5 → 0; visible text token #a9a9b2 → #757583",
+   "c": true,
+   "i": "{\"fails\":[],\"over\":{\"light\":{\"color-text-default\":\"#757583\",\"color-text-muted\":\"#72727e\",\"color-link\":\"#8a720a\",\"color-control\":\"#ae8f0d\"},\"dark\":{}},\"cssHas\":20094,\"chip\":\"Contrast OK\"}"
+  },
+  {
+   "id": "FAH-EXPORT",
+   "n": "the fixed text colour #757583 reaches Figma resolved values, Developer CSS and the token export",
+   "c": true,
+   "i": "{\"fixed\":\"#757583\",\"inFigma\":true,\"inCss\":true,\"inTokenExport\":true}"
+  }
+ ],
+ "errors": []
+}
